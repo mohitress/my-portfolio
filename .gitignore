@@ -1,0 +1,25 @@
+# .gitignore
+# Tells Git which files and folders to IGNORE so they don't get committed to GitHub.
+
+# Operating System temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE configuration folders
+.vscode/
+.idea/
+*.swp
+
+# Environment variables & secrets (CRITICAL: Never commit passwords/API keys!)
+.env
+.env.local
+*.secret
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+
+# Node modules (if you later install JavaScript packages)
+node_modules/
+

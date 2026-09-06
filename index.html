@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Developer Portfolio | Learning Git & GitHub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Dev<span>Portfolio</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle dark/light mode" class="theme-btn">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="badge">🚀 First Git & GitHub Project</div>
+      <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+      <p class="hero-subtitle">Aspiring Developer & Tech Enthusiast</p>
+      <p class="hero-description">
+        I am currently learning Git version control and GitHub to build, track, and showcase my personal software projects.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-card">
+        <p>
+          Welcome to my developer portfolio! This website serves as my playground for mastering:
+        </p>
+        <ul class="about-list">
+          <li><strong>Version Control (Git):</strong> Commits, branches, diffs, and merges.</li>
+          <li><strong>Remote Hosting (GitHub):</strong> Repositories, pull requests, issues, and collaboration.</li>
+          <li><strong>Free Web Hosting:</strong> Hosting static sites directly via <em>GitHub Pages</em>.</li>
+        </ul>
+        <p class="edit-tip">
+          💡 <em>Git Practice Task:</em> Open this file, replace "Your Name" with your actual name, and commit your changes using <code>git commit</code>!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+        
+        <!-- Project Card 1 -->
+        <article class="project-card">
+          <div class="card-tag">HTML & CSS</div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive developer portfolio website tracked with Git and deployed live on GitHub Pages.</p>
+          <div class="card-footer">
+            <span class="status-badge live">Live Demo</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub Repo →</a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card">
+          <div class="card-tag">JavaScript</div>
+          <h3>Interactive Web App</h3>
+          <p>A web application demonstrating DOM manipulation, event listeners, and local state management.</p>
+          <div class="card-footer">
+            <span class="status-badge upcoming">In Progress</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub Repo →</a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card">
+          <div class="card-tag">Git Practice</div>
+          <h3>Git & GitHub Playground</h3>
+          <p>Hands-on repository designed to practice branching, pull requests, and resolving merge conflicts.</p>
+          <div class="card-footer">
+            <span class="status-badge live">Completed</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-btn">GitHub Repo →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-wrapper">
+        <div class="skill-chip">Git Version Control</div>
+        <div class="skill-chip">GitHub</div>
+        <div class="skill-chip">HTML5 & CSS3</div>
+        <div class="skill-chip">JavaScript (ES6+)</div>
+        <div class="skill-chip">GitHub Pages</div>
+        <div class="skill-chip">Command Line / PowerShell</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer Section -->
+  <footer id="contact" class="footer">
+    <div class="container footer-content">
+      <h2>Let's Connect!</h2>
+      <p>Have questions or want to collaborate on a project?</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub Profile</a>
+        <a href="mailto:your-email@example.com" class="social-btn">Send Email</a>
+      </div>
+      <p class="copyright">&copy; <span id="year"></span> Created with Git & GitHub</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
